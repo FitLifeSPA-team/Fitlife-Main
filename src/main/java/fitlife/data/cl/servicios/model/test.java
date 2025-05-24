@@ -11,7 +11,7 @@ public class test {
 
     @GetMapping("/hola")
     public String holaTonotos() {
-        return "Hola Tonoto";
+        return "Hola Tonoto, esto es un test";
     }
     
 }
