@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @RestController
 public class test {
 
-    @GetMapping("/hola")
+    @GetMapping("/holatest")
     public String holaTonotos() {
         return "Hola Tonoto, esto es un test, blablabla";
     }
