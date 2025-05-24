@@ -1,9 +1,7 @@
 package fitlife.data.cl.servicios.model;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -18,7 +16,6 @@ import lombok.NoArgsConstructor;
 public class asesorias {
 
     @Id
-    @GeneratedValue(strategy = generationType.IDENTITY)
     private Integer id;
 
     @Column(name = "rut", nullable = false, unique = true, length = 12)
